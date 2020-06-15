@@ -38,8 +38,5 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-<<<<<<< HEAD:.github/workflows/auto_deploy_on_surge.yml
-      run: surge ./build http://bootcamp20a2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
-=======
-      run: surge ./build http://bootcamp20a2.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
->>>>>>> d3957c71b06258407ece81cc270bf56211b33393:.github/workflows/auto_deploy.yml
+      run: surge ./build  http://bootcamp20a2.surge.sh/   --token ${{ secrets.SURGE_TOKEN }}
+

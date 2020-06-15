@@ -9,8 +9,6 @@ function App() {
     <h2>I have learnt to create react app.</h2>
     <h3>I have also learn about build command, and finally have deployed my first react code on surge. </h3>
     
-    
-  
     </div>
   );
 }
